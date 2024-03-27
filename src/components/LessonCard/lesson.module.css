@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+}
+.anaContainer{
+    width: 90%;
+    margin: 10px auto;
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.796);
+    padding: 20px;
+}
+.container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.card{
+    margin-top: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.796);
+    border-radius: 10px;
+    width: 450px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 10px;
+}
+.info{
+    font-size: 1rem;
+    color: darkmagenta
+}
+button{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.796);
+    padding: 10px;
+    display: block;
+    margin: 50px auto;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    border: none;
+    font-weight: bolder;
+    color: darkmagenta;
+}
+
+button:hover{
+    cursor: pointer;
+    
+    
+}
+
+.lessonNameLabel {
+    color: #0093E9; 
+}
+
+.lessonName {
+    font-family: "Arial", sans-serif; 
+    color: darkmagenta;
+}
+
+.lessonHourLabel {
+    color: #0093E9; 
+}
+
+.lessonHour {
+    font-family: "Arial", sans-serif; 
+    color: darkmagenta;
+}
